@@ -1,0 +1,25 @@
+.navegacao{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.navecao-img{
+    width: 250px;
+}
+
+.navecao-links{
+    display: flex;
+    align-items: center;
+    margin-right: 5vh;
+}
+
+.navecao-item{
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2E86C1;
+    font-weight: 500;
+}

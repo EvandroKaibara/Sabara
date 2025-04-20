@@ -2,9 +2,9 @@ import './Rodape.css';
 
 const Rodape = () => {
     return(
-        <div className='rodape'>
+        <footer className='rodape'>
             <p>© 2024 Sabará Hospital Infantil. Todos os direitos reservados</p>
-        </div>
+        </footer>
     );
 }
 

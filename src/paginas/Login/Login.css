@@ -1,4 +1,16 @@
 main{
     background-image: url('/img/LoginBg.png');
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teste{
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 24px;
 }

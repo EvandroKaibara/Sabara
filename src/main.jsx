@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     path: "Login",
     element: <Login />,
   }
-])
+]) 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

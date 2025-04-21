@@ -16,7 +16,7 @@ const FormLogin = () => {
           </div>
           <button>Entrar</button>
         </form>        
-        <img src='/img/ImagemLogin.png'/>
+        <img src='/img/ImagemLogin.png' className='img-form-login'/>
       </div>
     </>
   )

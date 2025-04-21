@@ -5,7 +5,7 @@ const FormLogin = () => {
     <>
       <div className='container-form-login'>
         <form className='form-login'>
-          <h1>Bem-vindo(a) ao portal médico. Por favor, insira suas credenciais para acessar o sistema.</h1>
+          <h1 className='h1-login'>Bem-vindo(a) ao portal médico. Por favor, insira suas credenciais para acessar o sistema.</h1>
           <div className='label-login'>
             <label>Login</label>
             <input type="text"/>

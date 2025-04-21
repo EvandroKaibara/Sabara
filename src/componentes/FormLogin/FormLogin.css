@@ -3,7 +3,7 @@
     width: 100%; 
 }
 
-.h1-login{
+.h2-login{
     font-size: 32px;
     width: 100%;     
     color: #2E86C1;
@@ -24,16 +24,26 @@
     color: #2E86C1;
 }
 
-input{
+input {
     border: none;
     border-bottom: 2px solid #2E86C1;
     color: #2E86C1;
-    padding: 5px;
+    padding: 10px 5px;
     font-size: 20px;
     background-color: transparent;
+    outline: none;
+    transition: all 0.3s ease;
+    position: relative;
 }
 
-button{
+input:focus {
+    border-bottom: 2px solid #1A5276;
+    background-color: rgba(46, 134, 193, 0.05); 
+    box-shadow: 0 4px 12px rgba(46, 134, 193, 0.3);
+    transform: scale(1.02);
+}
+
+.button-login {
     background-color: #E20B26;
     color: #fff;
     width: 200px;
@@ -41,11 +51,23 @@ button{
     border-radius: 24px;
     font-size: 18px;
     border: none;
-    margin: 2vh 0vh;
+    margin: 2vh 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.button-login:hover {
+    background-color: #c00920; 
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+.button-login:active {
+    transform: scale(0.98); 
 }
 
 .img-form-login{
     padding: 0 5vh;
-    width: 50%;
-    height: 40vh;
+    width: 70%;
+    height: 45vh;
 }

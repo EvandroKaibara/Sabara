@@ -1,17 +1,25 @@
-.header-login{
+.header-login {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    padding: 10px 20px;
 }
 
-.link-login{
+.link-login {
     font-size: 24px;
     color: #2E86C1;
     text-decoration: underline;
     padding: 0 5vh;
+    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.link-login:hover {
+    color: #1A5276;
+    text-decoration-color: transparent;
 }
 
 .img-header-login{
     width: 25vh;
 }
+

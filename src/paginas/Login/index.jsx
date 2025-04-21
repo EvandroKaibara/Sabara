@@ -1,11 +1,15 @@
+import FormLogin from '../../componentes/FormLogin';
+import HeaderLogin from '../../componentes/HeaderLogin';
 import './Login.css'
 
-import { Link } from 'react-router-dom';
 
 const Login = () => {
     return(
         <main>
-            <Link to="/" className='teste'>Home</Link>
+            <div className='login-container'>
+                <HeaderLogin />
+                <FormLogin />
+            </div>
         </main>
   );
 }

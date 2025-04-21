@@ -8,11 +8,11 @@ const FormLogin = () => {
           <h2 className='h2-login'>Bem-vindo(a) ao portal médico. Por favor, insira suas credenciais para acessar o sistema.</h2>
           <div className='label-login'>
             <label>Login</label>
-            <input type="text"/>
+            <input type="text" required/>
           </div>        
           <div className='label-login'>
             <label>Senha</label>
-            <input type="password"/>
+            <input type="password" required/>
           </div>
           <button className='button-login'>Entrar</button>
         </form>        

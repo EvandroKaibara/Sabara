@@ -6,6 +6,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .login-container{
@@ -15,4 +16,10 @@ main{
     background-color: #F4F8FB;
     width: 80%;
     height: 80vh;
+}
+
+.login-onda{
+    position: absolute;
+    width: 60%;
+    bottom: 10%;
 }

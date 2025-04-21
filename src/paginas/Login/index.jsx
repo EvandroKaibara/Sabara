@@ -9,6 +9,7 @@ const Login = () => {
             <div className='login-container'>
                 <HeaderLogin />
                 <FormLogin />
+                <img src="/img/Onda.png" className='login-onda'/>
             </div>
         </main>
   );

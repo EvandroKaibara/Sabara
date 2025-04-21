@@ -6,20 +6,18 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
-.login-container{
+.login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #F4F8FB;
     width: 80%;
     height: 80vh;
-}
-
-.login-onda{
-    position: absolute;
-    width: 60%;
-    bottom: 10%;
-}
+    background-image: url('./img/Onda.png');  
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+    background-size: 60% 150px;
+  }
+  

@@ -12,6 +12,12 @@ body {
   display: flex;
 }
 
+[data-sonner-toast][data-type="error"] {
+  font-size: 18px !important;
+  padding: 16px 24px !important;
+  border-radius: 10px !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

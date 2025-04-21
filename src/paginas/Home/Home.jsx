@@ -12,9 +12,9 @@ const Login = () => {
         <Navegacao />
         <Banner />
         <div className='container-botoes'>
-            <Botoes texto='Internações' imagem='/img/Prancheta.png'/>
-            <Botoes texto='Agendamentos' imagem='/img/Agenda.png'/>
-            <Botoes texto='Chat com o paciente' imagem='/img/Chat.png'/>
+            <Botoes texto='Secretária' imagem='/img/Prancheta.png'/>
+            <Botoes texto='Consultas' imagem='/img/Agenda.png'/>
+            <Botoes texto='Pronto Socorro' imagem='/img/Chat.png'/>
         </div>
         <Carrossel />
         <Rodape />

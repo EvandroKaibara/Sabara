@@ -1,7 +1,7 @@
 .rodape{
-    margin: 10vh 0 0 0;
+    margin: 0;
     width: 100%;
-    background-color: #0C5CA7;
-    color: #fff;
+    background-color: var(--azul-escuro);
+    color: var(--branco);
     padding: 1vh 0;
 }

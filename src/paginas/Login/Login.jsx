@@ -5,7 +5,7 @@ import './Login.css'
 
 const Login = () => {
     return(
-        <main>
+        <main className='main-login'>
             <div className='login-container'>
                 <HeaderLogin />
                 <FormLogin />

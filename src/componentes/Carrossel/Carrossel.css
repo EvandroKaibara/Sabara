@@ -5,7 +5,7 @@
   overflow: hidden;
   padding: 5vh;
   box-sizing: border-box;
-  background-color: #0C5CA7;
+  background-color: var(--azul-escuro);
 }
 
 .swiper {
@@ -37,7 +37,7 @@
 .slide-texto {
   margin-top: 8px;
   font-size: 1rem;
-  color: #FFF;
+  color: var(--branco);
 }
 
 a {

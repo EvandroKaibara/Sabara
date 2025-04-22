@@ -6,7 +6,7 @@
 .h2-login{
     font-size: 32px;
     width: 100%;     
-    color: #2E86C1;
+    color: var(--azul-claro);
 }
 
 .form-login{
@@ -15,19 +15,19 @@
     padding: 0vh 10vh;
 }
 
-.label-login{
+.container-login{
     display: flex;
     flex-direction: column;
     width: 70%;
     padding: 2vh 0vh;
     font-size: 20px;
-    color: #2E86C1;
+    color: var(--azul-claro);
 }
 
-input {
+.input-login {
     border: none;
-    border-bottom: 2px solid #2E86C1;
-    color: #2E86C1;
+    border-bottom: 2px solid var(--azul-claro);
+    color: var(--azul-claro);
     padding: 10px 5px;
     font-size: 20px;
     background-color: transparent;
@@ -36,16 +36,26 @@ input {
     position: relative;
 }
 
-input:focus {
+.input-login:focus {
     border-bottom: 2px solid #1A5276;
     background-color: rgba(46, 134, 193, 0.05); 
     box-shadow: 0 4px 12px rgba(46, 134, 193, 0.3);
     transform: scale(1.02);
 }
 
+.p-login{
+    font-size: 20px;
+}
+
+.span-login{
+    color: var(--azul-claro);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .button-login {
     background-color: #E20B26;
-    color: #fff;
+    color: var(--branco);
     width: 200px;
     padding: 10px 15px;
     border-radius: 24px;

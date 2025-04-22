@@ -12,12 +12,12 @@
     width: 30vh;
     padding: 15vh 15vh 0 15vh;
     font-size: 56px;
-    color: #2E86C1;
+    color: var(--azul-claro);
 }
 
 .h2-banner {
     font-size: 40px;
-    color: #2E86C1;
+    color: var(--azul-claro);
     font-weight: 300;
     padding: 0 15vh 15vh 15vh;
 }

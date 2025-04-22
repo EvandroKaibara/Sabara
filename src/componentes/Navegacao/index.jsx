@@ -10,9 +10,9 @@ const Navegacao = () => {
             <img src="img/Logo.png" className='navecao-img'/>
 
             <div className='navecao-links'>
-                <a href="#" className='navecao-item'>Início</a>
+                <Link to="/" className='navecao-item'>Início</Link>
                 <a href="https://www.hospitalinfantilsabara.org.br/" className='navecao-item'>Hospital Sabará</a>
-                <LuCircleUser  size={40} color='#2E86C1'/>
+                <LuCircleUser  size={40} color='var(--azul-claro)'/>
                 <Link to="/login" className='navecao-item'>Fazer Login</Link>
                 <Menu />
             </div>

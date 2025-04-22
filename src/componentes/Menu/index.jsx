@@ -12,7 +12,7 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <button className={`hamburger ${open ? "open" : ""}`} onClick={toggleMenu}>
-        <IoIosArrowDown color="#2E86C1" size={30} />
+        <IoIosArrowDown color="var(--azul-claro)" size={30} />
       </button>
 
       <nav className={`menu ${open ? "show" : ""}`}>

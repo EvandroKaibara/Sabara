@@ -8,7 +8,7 @@
 
 .link-login {
     font-size: 24px;
-    color: #2E86C1;
+    color: var(--azul-claro);
     text-decoration: underline;
     padding: 0 5vh;
     transition: color 0.3s ease, text-decoration-color 0.3s ease;

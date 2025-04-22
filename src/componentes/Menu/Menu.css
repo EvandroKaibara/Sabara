@@ -96,3 +96,9 @@
     color: #e0e0e0; 
     transition: color 0.3s ease;
 }
+
+@media (max-width: 768px) {
+    .menu-container{
+        display: none;
+    }
+  }

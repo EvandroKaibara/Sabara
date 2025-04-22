@@ -80,4 +80,38 @@
     padding: 0 5vh;
     width: 70%;
     height: 45vh;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .container-form-login {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .img-form-login {
+        display: none; 
+    }
+
+    .form-login {
+        padding: 5vh 5vh; 
+        width: 100%; 
+    }
+
+    .h2-login {
+        font-size: 24px;
+        text-align: center; 
+    }
+
+    .input-login {
+        font-size: 18px; 
+    }
+
+    .button-login {
+        width: 100%;
+    }
+
+    .container-login {
+        width: 100%; 
+    }
 }

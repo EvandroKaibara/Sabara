@@ -1,7 +1,23 @@
-.rodape{
+.rodape {
     margin: 0;
     width: 100%;
     background-color: var(--azul-escuro);
     color: var(--branco);
     padding: 1vh 0;
+    text-align: center;
+    font-size: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .rodape {
+        padding: 2vh 0; 
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .rodape {
+        padding: 3vh 0; 
+        font-size: 0.8rem; 
+    }
 }

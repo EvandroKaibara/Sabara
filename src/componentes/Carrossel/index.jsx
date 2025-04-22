@@ -11,8 +11,21 @@ const Carrossel = () => {
         <Swiper
           modules={[Navigation]}
           spaceBetween={30}
-          slidesPerView={5}
           navigation
+          breakpoints={{
+            1024: {
+              slidesPerView: 4,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+            480: {
+              slidesPerView: 2,
+            },
+            320: {
+              slidesPerView: 1,
+            },
+          }}
         >
           <SwiperSlide>
             <a href='#'>
@@ -75,4 +88,4 @@ const Carrossel = () => {
     );
 } 
 
-export default Carrossel
+export default Carrossel;

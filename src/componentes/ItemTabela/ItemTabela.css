@@ -1,0 +1,27 @@
+.container-linha {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.linha-tabela{
+  font-family: var(--font-primaria);
+  color: var(--azul-escuro2);
+  padding: 2vh 0vh;
+  font-size: 20px;
+}
+
+.linha-nome{
+  color: var(--azul-claro);
+}
+
+.linha-consulta{
+  width: max-content;
+  background-color: #FFE9A7;
+  padding: 10px 25px;
+  border-radius: 16px;
+}

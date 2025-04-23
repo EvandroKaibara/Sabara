@@ -2,10 +2,10 @@ import './Botoes.css';
 
 import { Link } from "react-router-dom"; 
 
-const Botoes = ({ texto, imagem }) => {
+const Botoes = ({ texto, imagem, rota }) => {
   return (
     <>
-      <Link to='/login'>
+      <Link to={rota}>
         <div className="botao">
           <img src={imagem} alt="Ícone do botão" />
           <span>{texto}</span>

@@ -20,10 +20,14 @@
 }
 
 :root {
+  --font-primaria: 'Inter';
   --azul-claro: #2E86C1;
   --azul-escuro: #0C5CA7;
+  --azul-escuro2: #042B4C;
   --branco: #fff;
+  --preto: #000;
   --claro: #F4F8FB;
+  --cinza: #E8ECF3;
 }
 
 * {

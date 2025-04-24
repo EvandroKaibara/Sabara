@@ -25,3 +25,43 @@
   border-radius: 16px;
   width: max-content;
 }
+
+@media (max-width: 768px) {
+
+  .container-linha {
+    grid-template-columns: 1fr;
+    align-items: start;
+    text-align: left;
+    padding: 15px;
+    gap: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  .linha-tabela {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+
+  .linha-nome::before {
+    content: "Nome: ";
+    font-weight: bold;
+  }
+
+  .linha-consulta::before {
+    content: "Tipo: ";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .linha-data::before {
+    content: "Data: ";
+    font-weight: bold;
+  }
+
+  .linha-horario::before {
+    content: "Horário: ";
+    font-weight: bold;
+  }
+}

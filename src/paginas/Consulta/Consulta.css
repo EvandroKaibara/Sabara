@@ -70,3 +70,55 @@
     color: var(--azul-escuro2);
     font-size: 24px;
 }
+
+@media (max-width: 768px) {
+    .consulta-opcoes {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 3vh 2vh;
+    }
+
+    .usuario {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .usuario-texto {
+        font-size: 20px;
+    }
+
+    .usuario-filtro {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .usuario-select {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .h1-tabela {
+        font-size: 22px;
+        padding: 2vh;
+    }
+
+    .container-titulo-tabela {
+        display: none;
+    }
+
+    .container-tabela {
+        margin: 10px;
+        min-height: auto;
+        max-height: 70vh;
+    }    
+
+    .container-tabela > div:not(.container-titulo-tabela) {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+}

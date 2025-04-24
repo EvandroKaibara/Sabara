@@ -24,7 +24,11 @@
 
 @media (max-width: 1024px) {
     .container {
-        height: auto; /* Ajusta a altura para que o conteúdo seja mais flexível */
+        height: 40vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .h1-banner {
@@ -40,16 +44,20 @@
 
 @media (max-width: 480px) {
     .container {
-        height: auto; /* Ajusta a altura para que o conteúdo seja mais flexível */
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 
     .h1-banner {
         font-size: 32px;
-        padding: 5vh 3vw 0 3vw; /* Ajuste no padding para melhor adaptação ao tamanho menor */
+        padding: 5vh 3vw 0 3vw;
     }
 
     .h2-banner {
         font-size: 22px;
-        padding: 1vh 3vw; /* Ajuste no padding */
+        padding: 1vh 3vw;
     }
 }

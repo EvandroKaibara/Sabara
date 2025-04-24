@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { Toaster, toast } from 'sonner';
 
 
-const ErrorPage = () => {
+const NotFound = () => {
   return (
     <>
     <Navegacao />
@@ -32,4 +32,4 @@ const ErrorPage = () => {
   )
 }
 
-export default ErrorPage
+export default NotFound;

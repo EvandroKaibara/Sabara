@@ -14,7 +14,7 @@ const Login = () => {
         <div className='container-botoes'>
             <Botoes texto='Secretária' imagem='/img/Prancheta.png' rota='/'/>
             <Botoes texto='Consultas' imagem='/img/Agenda.png' rota='/consulta'/>
-            <Botoes texto='Pronto Socorro' imagem='/img/Chat.png' rota='/'/>
+            <Botoes texto='Pronto Socorro' imagem='/img/Chat.png' rota='/internacao'/>
         </div>
         <Carrossel />
         <Rodape />

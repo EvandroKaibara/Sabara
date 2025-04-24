@@ -5,7 +5,7 @@
     padding: 10px;
     border: 1px solid #eee;
     border-radius: 6px;
-    align-items: center;
+    place-items: center;
 }
 
 .linha-tabela{
@@ -20,8 +20,8 @@
 }
 
 .linha-consulta{
-  width: max-content;
   background-color: #FFE9A7;
-  padding: 10px 25px;
+  padding: 5px 10px;
   border-radius: 16px;
+  width: max-content;
 }

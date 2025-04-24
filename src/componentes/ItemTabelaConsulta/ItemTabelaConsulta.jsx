@@ -1,4 +1,4 @@
-import './ItemTabela.css';
+import './ItemTabelaConsulta.css';
 
 const ItemTabela = ({ nome, tipoConsulta, data, horario }) => {
   return (

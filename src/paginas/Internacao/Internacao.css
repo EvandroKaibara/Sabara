@@ -1,4 +1,4 @@
-.consulta-opcoes{
+.internacao-opcoes{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,38 +31,31 @@
     color: var(--azul-claro);
 }
 
+.container-tabela {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    max-height: 60vh; 
+    overflow-y: auto;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+
 .h1-tabela{
     padding: 3vh 5vh;
     font-size: 28px;
     font-weight: 600;
 }
 
-.container-tabela {
-    max-height: 80vh;
-    min-height: 80vh; 
-    overflow-y: auto;
-    margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-    padding: 0;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
 .container-titulo-tabela {
-    position: sticky;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     font-weight: bold;
     background-color: #f5f5f5;
+    padding: 10px;
     border-radius: 6px;
-    top: 0;
-    z-index: 1;
-    min-height: 50px;
-    border-bottom: 2px solid #ccc;
 }
 
 .titulo-tabela{

@@ -1,0 +1,32 @@
+.container-linha {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    place-items: center;
+}
+
+.linha-tabela{
+  font-family: var(--font-primaria);
+  color: var(--azul-claro);
+  padding: 2vh 0vh;
+  font-size: 20px;
+}
+
+.linha-estado{
+  color: var(--branco);
+  background-color: var(--azul-claro);
+  width: max-content;
+  padding: 15px 25px;
+  border-radius: 15px;
+}
+
+.linha-prontuario{
+  text-decoration: underline;
+}
+
+.linha-prontuario:hover{
+  cursor: pointer;
+}

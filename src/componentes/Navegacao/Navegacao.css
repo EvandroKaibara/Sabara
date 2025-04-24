@@ -199,6 +199,7 @@
 
     .navecao-links.ativo {
         display: flex;
+        align-items: center;
     }
 
     .navecao-item {

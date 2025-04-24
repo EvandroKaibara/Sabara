@@ -83,6 +83,12 @@
     object-fit: cover;
 }
 
+@media (max-width: 1024px){
+    .img-form-login {
+        display: none; 
+    }
+}
+
 @media (max-width: 768px) {
     .container-form-login {
         flex-direction: column; 

@@ -11,7 +11,6 @@ const HeaderLogin = () => {
         </NavLink>
         <div className='container-link-login'>
             <NavLink to="/" className='link-login desktop-link'>Início</NavLink>
-            <a href="https://www.hospitalinfantilsabara.org.br/" className='link-login desktop-link'>Hospital Sabará</a>
         </div>
     </div>
   )

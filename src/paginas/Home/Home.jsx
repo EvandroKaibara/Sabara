@@ -12,7 +12,7 @@ const Login = () => {
         <Navegacao />
         <Banner />
         <div className='container-botoes'>
-            <Botoes texto='Secretária' imagem='/img/Prancheta.png' rota='/'/>
+            <Botoes texto='Secretária' imagem='/img/Prancheta.png' rota='/login'/>
             <Botoes texto='Consultas' imagem='/img/Agenda.png' rota='/consulta'/>
             <Botoes texto='Pronto Socorro' imagem='/img/Chat.png' rota='/internacao'/>
         </div>

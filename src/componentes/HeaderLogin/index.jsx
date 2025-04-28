@@ -1,16 +1,16 @@
 import './HeaderLogin.css'
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const HeaderLogin = () => {
   return (
     <div className='header-login'>
-        <Link to="/">
+        <NavLink to="/">
           <img src="/img/Logo.png" className='img-header-login desktop-logo' alt="Logo" />
           <img src="/img/LogoMobile.png" className='img-header-login mobile-logo' alt="Logo Mobile"/>
-        </Link>
+        </NavLink>
         <div className='container-link-login'>
-            <Link to="/" className='link-login desktop-link'>Início</Link>
+            <NavLink to="/" className='link-login desktop-link'>Início</NavLink>
             <a href="https://www.hospitalinfantilsabara.org.br/" className='link-login desktop-link'>Hospital Sabará</a>
         </div>
     </div>

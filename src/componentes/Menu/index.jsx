@@ -2,7 +2,7 @@ import "./Menu.css";
 
 import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
-import { Link } from "react-router-dom"; 
+import { NavLink } from "react-router-dom"; 
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
@@ -19,15 +19,15 @@ const Menu = () => {
         <ul>
           <li>
             <img src="./img/Internacao.png" alt="Secretaria" className="menu-icon" />
-            <Link to="/login">Secretaria</Link>
+            <NavLink to="/login">Secretaria</NavLink>
           </li>
           <li>
             <img src="./img/Agendamento.png" alt="Consultas" className="menu-icon" />
-            <Link to="/login">Consultas</Link>
+            <NavLink to="/consulta">Consultas</NavLink>
           </li>
           <li>
             <img src="./img/ChatPaciente.png" alt="Pronto Socorro" className="menu-icon" />
-            <Link to="/login">Pronto Socorro</Link>
+            <NavLink to="/internacao">Pronto Socorro</NavLink>
           </li>
         </ul>
       </nav>

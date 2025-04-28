@@ -1,11 +1,11 @@
 .container-form-login{
     display: flex;
-    width: 100%; 
 }
 
 .h2-login{
-    font-size: 32px;
-    width: 100%;     
+    font-size: 29px;
+    width: 100%;  
+    font-weight: 800;   
     color: var(--azul-claro);
 }
 
@@ -18,7 +18,7 @@
 .container-login{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 100%;
     padding: 2vh 0vh;
     font-size: 20px;
     color: var(--azul-claro);
@@ -54,12 +54,13 @@
 }
 
 .button-login {
-    background-color: #E20B26;
+    background-color: var(--azul-claro);
     color: var(--branco);
-    width: 200px;
+    width: 100%;
     padding: 10px 15px;
     border-radius: 24px;
-    font-size: 18px;
+    font-size: 1.6vw;
+    font-weight: 600;
     border: none;
     margin: 2vh 0;
     cursor: pointer;
@@ -67,7 +68,7 @@
 }
 
 .button-login:hover {
-    background-color: #c00920; 
+    background-color: var(--azul-escuro); 
     transform: scale(1.05);
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
@@ -93,6 +94,7 @@
     .container-form-login {
         flex-direction: column; 
         align-items: center; 
+        width: 100%;
     }
 
     .img-form-login {
@@ -105,8 +107,8 @@
     }
 
     .h2-login {
-        font-size: 24px;
-        text-align: center; 
+        font-size: 24px; 
+        font-weight: 600;
     }
 
     .input-login {
@@ -115,6 +117,7 @@
 
     .button-login {
         width: 100%;
+        font-size: 2.3vh;
     }
 
     .container-login {

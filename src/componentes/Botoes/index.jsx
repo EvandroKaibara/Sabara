@@ -1,16 +1,16 @@
 import './Botoes.css';
 
-import { Link } from "react-router-dom"; 
+import { NavLink } from "react-router-dom"; 
 
 const Botoes = ({ texto, imagem, rota }) => {
   return (
     <>
-      <Link to={rota}>
+      <NavLink to={rota}>
         <div className="botao">
           <img src={imagem} alt="Ícone do botão" />
           <span>{texto}</span>
         </div>
-      </Link>
+      </NavLink>
     </>
   );
 }

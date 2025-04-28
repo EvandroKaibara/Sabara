@@ -1,6 +1,8 @@
 .main-login{
     background-image: url('/img/LoginBg.png');
-    width: 100%;
+    background-position: center;
+    background-size: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,6 +17,7 @@
     background-color: var(--claro);
     width: 80%;
     height: 80vh;
+    border-radius: 24px;
     background-image: url('/img/Onda.png');  
     background-repeat: no-repeat;
     background-position: bottom center; 
@@ -33,6 +36,7 @@
     .login-container {
         width: 100%; 
         padding: 10px; 
+        border-radius: 0;
     }
 }
   

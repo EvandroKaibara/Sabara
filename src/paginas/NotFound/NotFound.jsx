@@ -3,7 +3,7 @@ import './NotFound.css'
 import Navegacao from "../../componentes/Navegacao";
 import Rodape from '../../componentes/Rodape';
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Toaster, toast } from 'sonner';
 
 
@@ -24,7 +24,7 @@ const NotFound = () => {
           <Toaster richColors/>
           Se o problema persistir, entre em contato com <span onClick={() => toast.success('Suporte técnico acionado')} className='span-notfound'>nosso suporte</span>.
         </p>
-        <Link to='/' className='link-notfound'>Voltar à página inicial</Link>
+        <NavLink to='/' className='link-notfound'>Voltar à página inicial</NavLink>
       </div>
     </main>
     <Rodape />

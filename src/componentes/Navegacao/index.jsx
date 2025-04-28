@@ -4,7 +4,7 @@ import './Navegacao.css';
 
 import { LuCircleUser } from "react-icons/lu";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navegacao = () => {
     const [menuAberto, setMenuAberto] = useState(false);
@@ -36,12 +36,12 @@ const Navegacao = () => {
             </button>
 
             <div className={`navecao-links ${menuAberto ? 'ativo' : ''}`}>
-                <Link to="/" className='navecao-item'>Início</Link>
+                <NavLink to="/" className='navecao-item'>Início</NavLink>
                 <a href="https://www.hospitalinfantilsabara.org.br/" className='navecao-item'>Hospital Sabará</a>
-                <Link to="/login" className='navecao-item'>
+                <NavLink to="/login" className='navecao-item'>
                     <LuCircleUser size={24} style={{ marginRight: '8px' }} />
                     Fazer Login
-                </Link>
+                </NavLink>
                 <Menu />
             </div>
         </nav>

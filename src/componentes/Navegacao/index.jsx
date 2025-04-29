@@ -25,11 +25,13 @@ const Navegacao = () => {
 
     return (
         <nav className='navegacao'>
-            <img 
-                src={isMobile ? "img/LogoMobile.png" : "img/Logo.png"} 
-                className='navecao-img' 
-                alt="Logo" 
-            />
+            <NavLink to="/">
+                <img 
+                    src={isMobile ? "img/LogoMobile.png" : "img/Logo.png"} 
+                    className='navecao-img' 
+                    alt="Logo" 
+                />
+            </NavLink>
 
             <button className="menu-toggle" onClick={toggleMenu}>
                 <GiHamburgerMenu size={30} color='var(--azul-claro)' />

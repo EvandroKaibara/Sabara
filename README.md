@@ -1,5 +1,4 @@
-
-### Hospedagem
+## 🌐 Hospedagem
 
 O site está hospedado na **Vercel**, com um link público para acesso.
 
@@ -17,11 +16,15 @@ Este projeto foi desenvolvido utilizando o **React** com **Vite**, garantindo ma
 - **npm**, **yarn** ou **pnpm** (gerenciador de pacotes)
 
 Verifique se estão instalados com os comandos:
+
 ```bash
 node -v
 npm -v
+```
 
-### Técnicas
+---
+
+## 🎯 Técnicas
 
 - O **carrossel** depende de JavaScript.
 - A **estilização** depende do CSS.
@@ -66,7 +69,4 @@ Foi uma oportunidade valiosa para o crescimento e a evolução profissional de t
 
 ## 🔗 Acesso ao Projeto
 
-- 🔍 [Site Hospedado na Vercel](#) *(https://sabara.vercel.app/)*
-
----
-
+- 🔍 [Site Hospedado na Vercel](https://sabara.vercel.app/)

@@ -7,16 +7,21 @@
 }
 
 .link-login {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
     font-size: 24px;
+    text-decoration: none;
     color: var(--azul-claro);
-    text-decoration: underline;
-    padding: 0 5vh;
-    transition: color 0.3s ease, text-decoration-color 0.3s ease;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 5px; 
 }
 
 .link-login:hover {
+    background-color: rgba(46, 134, 193, 0.1);
     color: #1A5276;
-    text-decoration-color: transparent;
 }
 
 .desktop-logo {

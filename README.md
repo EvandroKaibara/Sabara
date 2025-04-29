@@ -24,13 +24,6 @@ npm -v
 
 ---
 
-## 🎯 Técnicas
-
-- O **carrossel** depende de JavaScript.
-- A **estilização** depende do CSS.
-
----
-
 ## ⚠️ Restrições do Projeto
 
 - ❌ **Sem banco de dados**, dificultando o armazenamento e acesso às informações dos pacientes.

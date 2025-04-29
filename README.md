@@ -1,6 +1,6 @@
-## 🌐 Hospedagem
+# 🌐 Portal do Médico
 
-O site está hospedado na **Vercel**, com um link público para acesso.
+ O Portal do Médico tem o objetivo de otimizar os prontuarios médicos e evitar falhas na comunicação interna do hospital.
 
 ---
 
@@ -15,12 +15,23 @@ Este projeto foi desenvolvido utilizando o **React** com **Vite**, garantindo ma
 - **Node.js** (versão 16 ou superior)
 - **npm**, **yarn** ou **pnpm** (gerenciador de pacotes)
 
-Verifique se estão instalados com os comandos:
+## 📈 Como Iniciar o Projeto Localmente
 
-```bash
-node -v
-npm -v
-```
+Primeiramente você deve clonar o projeto para sua maquina:
+
+<code>git clone https://github.com/EvandroKaibara/Sabara.git</code>
+
+Apos isso abra o console
+
+<code>cd Sabara</code>
+
+Instale as dependências 
+
+<code>npm install</code>
+
+Rode o projeto
+
+<code>npm run dev</code>
 
 ---
 

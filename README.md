@@ -6,6 +6,11 @@
 
 ## 📦 Dependências do Projeto
 
+- React Icons
+- React Router Dom
+- Sonner
+- Swiper
+
 ### 🧰 Requisitos do Projeto (React + Vite)
 
 Este projeto foi desenvolvido utilizando o **React** com **Vite**, garantindo maior performance e uma experiência de desenvolvimento mais fluida.
@@ -33,24 +38,16 @@ Rode o projeto
 
 <code>npm run dev</code>
 
----
+## 🤝 Equipe
 
-## ⚠️ Restrições do Projeto
+- Front End
+    - Evandro Kaibara
+- Back End
+    - Pedro Henrique
+- Ideias do projeto
+    - Ícaro Santos
+    - Mateus Mallet
 
-- ❌ **Sem banco de dados**, dificultando o armazenamento e acesso às informações dos pacientes.
-
----
-
-## 🤝 Desenvolvimento da Equipe
-
-A equipe demonstrou comprometimento com as entregas, enfrentando desafios como:
-
-- Dificuldade no início do desenvolvimento.
-- Necessidade de organização e separação de tarefas.
-
-Mesmo com esses obstáculos, todas as entregas foram realizadas dentro do prazo.
-
----
 
 ## 🚀 Planos Futuros
 

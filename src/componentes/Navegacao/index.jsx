@@ -24,7 +24,7 @@ const Navegacao = () => {
     }, []);
 
     return (
-        <nav className='navegacao'>
+        <header className='navegacao'>
             <NavLink to="/">
                 <img 
                     src={isMobile ? "img/LogoMobile.png" : "img/Logo.png"} 
@@ -46,7 +46,7 @@ const Navegacao = () => {
                 </NavLink>
                 <Menu />
             </div>
-        </nav>
+        </header>
     );
 };
 

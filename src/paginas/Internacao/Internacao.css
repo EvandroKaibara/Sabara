@@ -64,6 +64,17 @@
     font-size: 24px;
 }
 
+@media (max-width: 1280px){
+  .titulo-tabela{
+    font-size: 16px;
+  }
+  
+  .container-titulo-tabela {
+    display: none; 
+  }
+}
+
+
 @media (max-width: 768px) {
     .internacao-opcoes {
       flex-direction: column;
@@ -102,9 +113,5 @@
       margin: 10px;
       min-height: auto;
       max-height: 70vh;
-    }
-  
-    .container-titulo-tabela {
-      display: none; /* Oculta os títulos da tabela no mobile */
     }
   }

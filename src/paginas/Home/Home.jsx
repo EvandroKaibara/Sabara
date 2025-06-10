@@ -1,4 +1,4 @@
-import './Home.css'
+import './Home.css';
 
 import Banner from "../../componentes/Banner";
 import Botoes from "../../componentes/Botoes";

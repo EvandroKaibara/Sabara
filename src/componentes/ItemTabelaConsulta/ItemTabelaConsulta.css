@@ -20,11 +20,28 @@
 }
 
 .linha-consulta{
-  background-color: #FFE9A7;
-  padding: 5px 10px;
-  border-radius: 16px;
-  width: max-content;
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px; 
+  font-size: 14px;
+  font-weight: 500;
+  width: 240px; 
+  text-align: center;
+  color: #333;
 }
+
+.consulta-checkup {
+  background-color: #FFE9A7;
+}
+
+.consulta-exame {
+  background-color: #E9C3E7;
+}
+
+.consulta-raiox {
+  background-color: #C2EEF6;
+}
+
 
 @media (max-width: 768px) {
 

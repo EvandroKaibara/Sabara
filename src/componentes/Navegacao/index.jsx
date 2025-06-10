@@ -39,7 +39,7 @@ const Navegacao = () => {
 
             <div className={`navecao-links ${menuAberto ? 'ativo' : ''}`}>
                 <NavLink to="/" className='navecao-item'>Início</NavLink>
-                <a href="https://www.hospitalinfantilsabara.org.br/" className='navecao-item'>Hospital Sabará</a>
+                <a href="https://www.hospitalinfantilsabara.org.br/" target="_blank" className='navecao-item'>Hospital Sabará</a>
                 <NavLink to="/login" className='navecao-item'>
                     <LuCircleUser size={24} style={{ marginRight: '8px' }} />
                     Fazer Login

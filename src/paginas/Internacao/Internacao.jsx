@@ -36,21 +36,14 @@ const Internacao = () => {
             <div className='titulo-tabela'>Estado</div>           
         </div>
         <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
-        <ItemTabelaInternacao nome='Evandro' atualizacao='01/04/2025 às 09:00' estado='Liberado'/>
+        <ItemTabelaInternacao nome='Mariana Silva' atualizacao='01/04/2025 às 09:40' estado='Estável'/>
+        <ItemTabelaInternacao nome='Carlos Mendes' atualizacao='01/04/2025 às 10:10' estado='Grave'/>
+        <ItemTabelaInternacao nome='Ana Souza' atualizacao='01/04/2025 às 10:30' estado='Em observação'/>
+        <ItemTabelaInternacao nome='Ricardo Lima' atualizacao='01/04/2025 às 11:00' estado='Liberado'/>
+        <ItemTabelaInternacao nome='Fernanda Rocha' atualizacao='01/04/2025 às 11:20' estado='Estável'/>
+        <ItemTabelaInternacao nome='João Pedro' atualizacao='01/04/2025 às 11:45' estado='Grave'/>
+        <ItemTabelaInternacao nome='Beatriz Nunes' atualizacao='01/04/2025 às 12:00' estado='Em observação'/>
+
 
     </div>
     <Rodape />

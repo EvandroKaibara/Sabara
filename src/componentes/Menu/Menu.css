@@ -108,6 +108,10 @@
     transition: color 0.3s ease;
 }
 
+.menu-aviso{
+    color: var(--branco);
+}
+
 @media (max-width: 768px) {
     .menu-container{
         display: none;

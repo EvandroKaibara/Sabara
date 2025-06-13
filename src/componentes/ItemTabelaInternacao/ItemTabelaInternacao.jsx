@@ -1,7 +1,10 @@
 import './ItemTabelaInternacao.css';
 import { Toaster, toast } from 'sonner';
+import { useNavigate } from 'react-router-dom';
 
 const ItemTabela = ({ nome, atualizacao, estado }) => {
+  const navigate = useNavigate();
+
   const getEstadoStyle = (estado) => {
     switch (estado) {
       case 'Liberado':
@@ -17,22 +20,26 @@ const ItemTabela = ({ nome, atualizacao, estado }) => {
     }
   };
 
+  const handleExibirRelatorio = () => {
+    navigate('/dashboard');
+  };
+
   return (
-    <div className='container-linha'>
-      <div className='linha-tabela linha-nome'>{nome}</div>
+    <div className="container-linha">
+      <div className="linha-tabela linha-nome">{nome}</div>
 
       <div
-        className='linha-tabela linha-prontuario'
-        onClick={() => toast.warning('Função em construção!')}
+        className="linha-tabela linha-prontuario"
+        onClick={handleExibirRelatorio}
       >
         <Toaster richColors />
-        Exibir prontuário
+        Exibir relatório
       </div>
 
-      <div className='linha-tabela linha-data'>{atualizacao}</div>
+      <div className="linha-tabela linha-data">{atualizacao}</div>
 
-      <div className='linha-tabela linha-estado'>
-        <span className='estado-badge' style={getEstadoStyle(estado)}>
+      <div className="linha-tabela linha-estado">
+        <span className="estado-badge" style={getEstadoStyle(estado)}>
           {estado}
         </span>
       </div>

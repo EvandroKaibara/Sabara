@@ -31,7 +31,7 @@ const Internacao = () => {
     <div className='container-tabela'>
         <div className='container-titulo-tabela'>
             <div className='titulo-tabela'>Nome do paciente</div>
-            <div className='titulo-tabela'>Detalhes do paciente</div>
+            <div className='titulo-tabela'>Detalhes da sala</div>
             <div className='titulo-tabela'>Última atualização</div>
             <div className='titulo-tabela'>Estado</div>           
         </div>

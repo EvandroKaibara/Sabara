@@ -30,7 +30,7 @@ const Home = () => {
         <Botoes
           texto='Secretária'
           imagem='/img/Prancheta.png'
-          onClick={() => handleProtectedNavigation('/login')}
+          onClick={() => handleProtectedNavigation('/secretaria')}
         />
         <Botoes
           texto='Consultas'

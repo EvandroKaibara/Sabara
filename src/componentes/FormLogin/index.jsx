@@ -16,7 +16,6 @@ const FormLogin = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiUm9sZUVudW0uQURNSU4iLCJleHAiOjE3NTAyOTY3NzZ9.XRqsgz8JMgedtYgBN-OnzujKWcvGUJpSjEg2I9QOeN4'
         },
         body: JSON.stringify({
           email: login,
@@ -28,6 +27,7 @@ const FormLogin = () => {
 
       if (response.ok) {
         localStorage.setItem('token', data.token);
+
         toast.success('Login realizado com sucesso!');
         navigate('/');
       } else {
@@ -43,7 +43,9 @@ const FormLogin = () => {
     <>
       <div className='container-form-login'>
         <form className='form-login' onSubmit={handleLogin}>
-          <h2 className='h2-login'>Bem-vindo(a) ao portal médico. Por favor, insira suas credenciais para acessar o sistema.</h2>
+          <h2 className='h2-login'>
+            Bem-vindo(a) ao portal médico. Por favor, insira suas credenciais para acessar o sistema.
+          </h2>
 
           <div className='container-login'>
             <label className='label-login'>Login</label>
@@ -81,7 +83,7 @@ const FormLogin = () => {
           <button type="submit" className='button-login'>Entrar</button>
         </form>
 
-        <img src='/img/ImagemLogin.png' className='img-form-login' />
+        <img src='/img/ImagemLogin.png' className='img-form-login' alt="Login" />
       </div>
     </>
   );

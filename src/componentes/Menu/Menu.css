@@ -80,6 +80,17 @@
     font-size: 18px;
 }
 
+.menu-logout{
+    display: flex;
+    align-items: center;
+}
+
+.btn--logout{
+    background-color: transparent;
+    color: var(--branco);
+    font-size: 18px;
+}
+
 .menu-icon {
     width: 30px;
     padding-right: 10px;

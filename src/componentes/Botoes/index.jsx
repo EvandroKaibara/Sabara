@@ -1,18 +1,12 @@
 import './Botoes.css';
 
-import { NavLink } from "react-router-dom"; 
-
-const Botoes = ({ texto, imagem, rota }) => {
+const Botoes = ({ texto, imagem, onClick }) => {
   return (
-    <>
-      <NavLink to={rota}>
-        <div className="botao">
-          <img src={imagem} alt="Ícone do botão" />
-          <span>{texto}</span>
-        </div>
-      </NavLink>
-    </>
+    <div className="botao" onClick={onClick} style={{ cursor: 'pointer' }}>
+      <img src={imagem} alt="Ícone do botão" />
+      <span>{texto}</span>
+    </div>
   );
-}
+};
 
 export default Botoes;

@@ -11,6 +11,10 @@
 - Sonner
 - Swiper
 
+## 📦 Dependências do Back-End
+
+- Venv
+
 ### 🧰 Requisitos do Projeto
 
 O Front-End foi desenvolvido utilizando o **React** com **Vite**, garantindo maior performance e uma experiência de desenvolvimento mais fluida do site.
@@ -88,24 +92,24 @@ python mqtt_listeners.py
 
 #### Tendo iniciado a API, agora rode o front-end do projeto seguindo estes passos:
 
-1. Clone o repositório:
+1. Clonar o repositório com:
 ```
 git clone https://github.com/EvandroKaibara/Sabara.git
 ```
 
-2. Apos isso abra o console:
+2. Abrir o console e entrar no diretório do projeto com:
 
 ```
 cd Sabara
 ```
 
-3. Instale as dependências:
+3. Instalar as dependências com:
 
 ```
 npm install
 ```
 
-4. Rode o projeto:
+4. Rodar o projeto com:
 
 ```
 npm run dev

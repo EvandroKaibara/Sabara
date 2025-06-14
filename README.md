@@ -4,16 +4,18 @@
 
 ---
 
+## 💠 Vídeo Sprint
+
+[YouTube](https://youtu.be/odwAwbksSyw)
+
 ## 📦 Dependências do Front-End
 
 - React Icons
 - React Router Dom
 - Sonner
 - Swiper
-
-## 📦 Dependências do Back-End
-
-- Venv
+- API
+- Conexão com o Arduino
 
 ### 🧰 Requisitos do Projeto
 
@@ -34,59 +36,6 @@ O Back-End foi desenvolvido utilizando **Python** como linguagem de programaçã
 Para rodar o projeto, primeiramente você deve rodar a API que se encontra neste repositório:
 
 - 🔍 [Sabara-API](https://github.com/phbrg/sabaraAPI)
-
-#### Agora, precisa seguir alguns passos!
-1. Instalar o [Python](https://www.python.org/downloads/).
-2. Instalar o [PostgreSQL](https://www.postgresql.org/download/).
->Desativado nesta primeira versão
-3. Clonar o projeto com:
-```
-https://github.com/phbrg/sabaraAPI.git
-```
-4. Criar um arquivo `.env` com a seguinte variavel:
-```
-DATABASE_URL=postgresql://USER:PASSWORD@localhost:5432/DB
-SECRET_KEY = "SUASECRETKEY"
-ALGORITHM = "HS256"
-```
->Substitua as variaveis USER, PASSWORD, DB e SUASECRETKEY pelas suas variaveis
-5. Instalar o venv em sua maquina com:
-```
-pip install venv
-```
-6. Rodar o venv com:
-```
-python -m venv venv
-```
-7. Iniciar o ambiente venv com:
-```
-venv\Scripts\activate
-```
-8. Instalar os requirementes no ambiente venv com:
-```
-pip install -r requirements.txt
-```
-9. Rodar o projeto com:
-```
-uvicorn app.main:app --reload
-```
-10. Iniciar outro terminal.
-
-11. Iniciar o ambiente venv novamente com:
-```
-venv\Scripts\activate
-```
-12. Entrar no diretório /arduino/ com:
-```
-cd arduino
-```
-13. Iniciar o arquivo mqtt_listener com:
-```
-python mqtt_listeners.py
-```
-14. Abrir o link do projeto do [Wokwi](https://wokwi.com/projects/433609174072571905).
-
-15. Rodar o projeto no Wokwi clicando no botão Verde "Start the simulation".
 
 ### 💻 Front-End
 
@@ -139,6 +88,11 @@ Foi uma oportunidade valiosa para o crescimento e a evolução profissional de t
 
 ---
 
+## 📌 Observações importantes do projeto
+
+- O projeto não possui uma tela para registrar usuários.
+
 ## 🔗 Acesso ao Projeto
 
 - 🔍 [Site Hospedado na Vercel](https://sabara.vercel.app/)
+> API não está inclusa no Deploy!

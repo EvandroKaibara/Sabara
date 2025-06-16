@@ -71,7 +71,6 @@ npm run dev
 - Back End
     - Pedro Henrique Batista Bergamin RM:559443
 - Ideias do projeto
-    - Ícaro de Oliveira Santos RM:559950
     - Mateus Mallet da Rocha Mallet RM:560491
 
 ---
